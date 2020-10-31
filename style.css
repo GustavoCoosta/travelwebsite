@@ -1,0 +1,1037 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html, body {
+    overflow-x:  hidden;
+}
+
+
+.header {
+
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    
+}
+
+.login-btn {
+
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    position: relative;
+    
+    bottom: 50px;
+}
+
+.header h1 {
+    color: #fff;
+}
+
+
+.header h2 {
+    text-align: center;
+    color: #fff;
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+
+.header p {
+    margin: 18px 0;
+    color: #fff;
+    text-align: center;
+}
+
+
+.input-group {
+
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+
+.form-control {
+    border: 0 !important;
+    border-radius: 30px  !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+
+
+.input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e, #1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 40px !important;
+    border-radius: 30px !important;
+    box-shadow: none;
+}
+
+.input-group-text svg {
+    text-align: center;
+}
+
+
+.features {
+
+    padding: 100px 0;
+}
+
+
+.features h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.feature-img {
+
+  
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+
+/*.feature-img img {
+
+   
+
+
+    max-width: 100%;
+    object-fit:cover;
+   
+
+}*/
+.price {
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+
+.feature-img {
+
+    position: relative;
+    
+   
+}
+
+.rating {
+
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+    position: absolute;
+
+}
+
+.rating svg {
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details {
+    padding: 20px;
+    text-align: justify;
+}
+
+.feature-details h4 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.feature-details svg {
+    margin-right: 5px;
+    color: #ff5722;
+}
+
+
+.gallery .container {
+      
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    
+ 
+}
+
+
+.feature-box {
+    box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+    margin-bottom: 30px;
+}
+
+.features .container {
+    display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        
+   
+}
+
+
+.gallery h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.gallery-box img {
+
+ 
+    
+    max-width: 100%;
+    object-fit:cover;
+
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.gallery-box img:hover {
+    transform: scale(1.1);
+}
+
+.gallery-box h4 {
+   display: block;
+   font-size: 20px;
+   text-align: center;
+   text-shadow: -2px  2px 2px #000;
+   font-weight: 600;
+   color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+}
+
+.gallery-box {
+
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.banner {
+
+    height: 80%;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.gallery {
+
+    background-color: #dcdcdc;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.banner {
+    height: 80%;
+    background-image: url(imgs/banner-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 14%;
+}
+
+.banner-highlights {
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+    
+}
+
+.booking-btn {
+
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    position: relative;
+    left: 600px;
+    bottom: 80px;
+}
+
+
+.user-feedback  {
+
+    padding: 100px 0;
+}
+
+.user-feedback h1 {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.user-review {
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+}
+
+.user-review p {
+    padding: 50px 10px 10px 10px;
+}
+
+.user-feedback img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+.user-review p::before {
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 44%;
+    top: -20px;
+}
+
+
+.footer {
+    padding: 100px 20px;
+    background-image: linear-gradient(#2d557d, #9610fb);
+    color: #fff;
+}
+
+.footer h4 {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+.footer p {
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+
+
+ .footer svg{
+    padding-right: 20px;
+    font-size: 35px;
+}
+
+
+hr {
+    margin-top: 10px;
+    background: #efefef;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright svg {
+    margin: 0 5px;
+    color: #ff4444;
+}
+
+
+/*@media screen and (min-width: 768px) {
+
+    .feature-img img {
+        height: 300px;
+        width: 700px;
+        
+    }
+
+    .features .container {
+        margin-left: 200px;
+    }
+
+    .gallery .container {
+    
+        
+    
+    }
+
+    .gallery img {
+        height: 400px;
+    }
+    .booking-btn {
+      display: none;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .feature-img img {
+        width: 0px;
+    }
+
+    .header {
+        padding-bottom: 700px;
+    }
+
+    .banner {
+        padding-bottom: 500px;
+    }
+    .booking-btn {
+        display: none;
+      }
+
+      .gallery .container {
+      
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+     
+      
+    }
+
+
+ 
+   
+   
+      }
+
+.user-feedback img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 45%;
+}
+
+
+
+
+
+
+@media screen and (min-width: 280px) {
+
+    .feature-img img {
+        width: 92vw;
+    }
+
+    .booking-btn {
+        display: none;
+      }
+  
+
+   
+}
+
+
+@media screen and (min-width: 375px) {
+
+    .feature-img img {
+        width: 345px;
+    }
+
+    .booking-btn {
+        display: none;
+      }
+
+      .gallery .container {
+        margin-left: 0px;
+    
+    }
+}
+
+
+
+@media screen and (max-width: 320px) {
+
+
+    .feature-img img {
+        width: 345px;
+    }
+
+    .header {
+        height: 800px;
+    }
+
+    .banner {
+        padding-bottom: 500px;
+    }
+    .booking-btn {
+        display: none;
+      }
+
+.user-feedback img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+}
+
+
+@media screen and (min-width: 800px) {
+
+
+    .feature-img img {
+        width: 650px;
+        
+    }
+
+
+    .features .container {
+
+    margin-left: 200px;
+    }
+
+    .gallery .container {
+        margin-left: 300px;
+        
+    
+    
+    }
+
+    .booking-btn {
+        position: relative;
+        bottom: 100px;
+        left: 500px;
+    }
+
+    .gallery .container {
+
+        position: relative;
+        right: 0px;
+      }
+
+
+    .header {
+        height: 900px;
+    }
+}
+
+
+@media  screen and (min-width: 1025px) {
+
+    .features .container {
+        margin-left: 330px;
+    }
+
+    .gallery .container {
+       display: block;
+       
+       margin-left: 200px;
+    }
+
+ 
+}
+
+@media  screen and (max-width: 360px) {
+
+
+    .header  {
+        height: 800px;
+    }
+
+
+    .feature-img img {
+        width: 330px;
+    }
+
+    .booking-btn {
+        display: none;
+      }
+
+      .gallery .container {
+        margin-left: 0px;
+    
+    } 
+
+}
+
+
+@media screen and (min-width: 411px) {
+
+
+    .header  {
+        height: 800px;
+    }
+
+
+    .feature-img img {
+        width: 382px;
+    }
+
+    
+    .gallery .container {
+        margin-left: 0px;
+    
+    } 
+
+    .booking-btn {
+        display: none;
+      }
+    .user-feedback img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        position: relative;
+        margin: -30px 0 20px 42%;
+    }
+
+
+
+}
+*/
+
+@media screen and (min-width: 640px) {
+    .header {
+        height: 850px;
+    }
+
+    .banner  {
+        padding-bottom: 500px;
+    }
+
+
+    .booking-btn {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 800px) {
+
+    .features .container {
+        margin-left: 200px;
+    }
+
+
+    .gallery .container {
+        margin-left: 200px;
+    }
+    .banner  {
+        padding-bottom: 100px;
+    }
+
+
+    .booking-btn {
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 360px) {
+
+    .header {
+        height: 850px;
+    }
+
+    .banner  {
+        padding-bottom: 500px;
+    }
+
+
+    .booking-btn {
+        display: none;
+    }
+
+    #img-1 {
+
+        height: 200px;
+    }
+
+}
+
+
+@media screen and (min-width: 320px) {
+
+    .header {
+        height: 850px;
+    }
+
+    .banner  {
+        padding-bottom: 500px;
+    }
+
+
+    .booking-btn {
+        display: none;
+    }
+
+    
+    #img-1 {
+
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 280px) {
+
+    .header {
+        height: 850px;
+    }
+
+    .banner  {
+        padding-bottom: 500px;
+    }
+
+
+    .banner  {
+        padding-bottom: 500px;
+    }
+
+
+    .booking-btn {
+        display: none;
+    }
+
+    
+    #img-1 {
+
+        height: 180px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+
+    #img-1 {
+
+        height: 250px;
+    }
+
+
+
+
+}
+@media screen and (min-width: 768px) {
+
+    .features .container {
+        margin-left: 200px;
+    }
+
+    .gallery .container {
+        margin-left: 200px;
+    }
+    .banner  {
+        padding-bottom: 500px;
+    }
+
+
+    .booking-btn {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .features .container {
+        margin-left: 350px;
+    }
+
+    .gallery .container {
+        margin-left: 350px;
+    }
+
+    .banner  {
+        padding-bottom: 500px;
+    }
+
+
+    .booking-btn {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 1025px) {
+    .features .container {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin-left: 200px;
+    
+    }
+
+  
+#img-1 {
+    width: 1200px;
+    height: 500px;
+}
+
+
+.features img {
+
+    width: 1200px;
+    height: 500px;
+
+}
+    .gallery .container {
+        display: block;
+        margin-left: 250px;
+    }
+}
+
+
+
+@media screen and (min-width: 1100px) {
+    .features .container {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin-left: 100px;
+    
+    }
+
+  
+#img-1 {
+    width: 1200px;
+    height: 500px;
+}
+
+
+.features img {
+
+    width: 1200px;
+    height: 500px;
+
+}
+    .gallery .container {
+        display: block;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .features .container {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin-left: 50px;
+    
+    }
+
+  
+#img-1 {
+    width: 1200px;
+    height: 500px;
+}
+
+
+.features img {
+
+    width: 1200px;
+    height: 500px;
+
+}
+    .gallery .container {
+        display: block;
+        margin-left: 130px;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .features .container {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin-left: 130px;
+    
+    }
+
+  
+#img-1 {
+    width: 1200px;
+    height: 500px;
+}
+
+
+.features img {
+
+    width: 1200px;
+    height: 500px;
+
+}
+    .gallery .container {
+        display: block;
+        margin-left: 200px;
+    }
+}
+
+
+@media screen and (min-width: 1450px) {
+    .features .container {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin-left: 200px;
+    
+    }
+
+  
+#img-1 {
+    width: 1200px;
+    height: 500px;
+}
+
+
+.features img {
+
+    width: 1200px;
+    height: 500px;
+
+}
+    .gallery .container {
+        display: block;
+        margin-left: 220px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .features .container {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin-left: 170px;
+    
+    }
+
+  
+#img-1 {
+    width: 1200px;
+    height: 500px;
+}
+
+
+.features img {
+
+    width: 1200px;
+    height: 500px;
+
+}
+    .gallery .container {
+        display: block;
+        margin-left: 220px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .features .container {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin-left: 250px;
+    
+    }
+
+  
+#img-1 {
+    width: 1200px;
+    height: 500px;
+}
+
+
+.features img {
+
+    width: 1200px;
+    height: 500px;
+
+}
+    .gallery .container {
+        display: block;
+        margin-left: 320px;
+    }
+}
+
+@media screen and (min-width: 1750px) {
+    .features .container {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin-left: 340px;
+    
+    }
+
+  
+#img-1 {
+    width: 1200px;
+    height: 500px;
+}
+
+
+.features img {
+
+    width: 1200px;
+    height: 500px;
+
+}
+    .gallery .container {
+        display: block;
+        margin-left: 400px;
+    }
+}
+
+
+@media screen and (min-width: 1900px) {
+    .features .container {
+        display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+    margin-left: 390px;
+    
+    }
+
+  
+#img-1 {
+    width: 1200px;
+    height: 500px;
+}
+
+
+.features img {
+
+    width: 1200px;
+    height: 500px;
+
+}
+    .gallery .container {
+        display: block;
+        margin-left: 440px;
+    }
+}
+
+
+
+
+
+
+
+
